@@ -329,7 +329,7 @@ h6 {
   font-weight: bold;
 }
 h4 {
-  font-size: 21px;
+  font-size: 16px;
 }
 a {
   color: #404040;
@@ -783,17 +783,17 @@ pre code {
   color: #0085a1;
 }
 .post-preview > a > .post-title {
-  font-size: 21px;
+  font-size: 15px;
   line-height: 1.3;
   margin-top: 30px;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
 }
 .post-preview > a > .post-subtitle {
   font-size: 15px;
   line-height: 1.3;
   margin: 0;
   font-weight: 300;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
 }
 .post-preview > .post-meta {
   font-family: 'Lora', 'Times New Roman', serif;
@@ -813,15 +813,16 @@ pre code {
 }
 @media only screen and (min-width: 768px) {
   .post-preview > a > .post-title {
-    font-size: 26px;
+    font-size: 14px;
     line-height: 1.3;
     margin-bottom: 10px;
   }
   .post-preview > a > .post-subtitle {
-    font-size: 16px;
+    font-size: 12px;
   }
   .post-preview .post-meta {
-    font-size: 18px;
+    font-size: 11px;
+    color: #cccccc;
   }
 }
 .post-content-preview {
@@ -1088,7 +1089,7 @@ img::-moz-selection {
 }
 .listing-seperator {
   color: #0085a1;
-  font-size: 21px !important;
+  font-size: 16px !important;
 }
 .listing-seperator::before {
   margin-right: 5px;
